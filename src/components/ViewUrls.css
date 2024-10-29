@@ -1,0 +1,45 @@
+.url {
+    width: 35% !important;
+    color: blue;
+    overflow-x: scroll;
+}
+
+.urlH {
+    width: 35% !important;
+    color: blue;
+}
+
+.date {
+    width: 100px !important;
+}
+
+.serial {
+    width: 50px !important;
+    text-align: center !important;
+}
+
+table {
+    table-layout: fixed;
+    text-align: center !important;
+}
+
+.table1 {
+    background-color: black;
+    width: 100%;
+
+    td {
+        padding-top: 10px;
+        text-align: left;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .urlH:nth-child(even){
+        display: none;
+    }
+    .url:nth-child(even){
+        display: none;
+    }
+
+}
