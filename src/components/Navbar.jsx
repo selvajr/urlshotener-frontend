@@ -23,7 +23,7 @@ const Navbar = ({ user }) => {
     <nav className="navbar navbar-expand-lg  blur blur-rounded top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
       <div className="container-fluid px-0">
         <Link className="navbar-brand font-weight-bolder ms-sm-3">
-          AK URL Shortener
+          URL Shortener
         </Link>
         {user ? (
           <Link
